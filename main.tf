@@ -357,7 +357,7 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "reyaz-devopsproject-bkt-123-${random_id.suffix.hex}"
+  bucket = "reyaz-devopsproject-bkt-123"
 
   tags = {
     Name        = "reyaz-devopsproject-bkt-123"
